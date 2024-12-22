@@ -1,0 +1,246 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logo img {
+    margin-left: 20px;
+    padding: 5px;
+    width: 50px;
+    height: auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-text {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+nav {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: whitesmoke;
+    z-index: 1000;
+    border-bottom: 1px solid rgb(70, 70, 70);
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+}
+
+nav ul li a.button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.sidebar {
+    position: fixed;
+    right: 0;
+    top: 40px;
+    width: 300px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-left: 1px solid #ddd;
+    height: 90%;
+    overflow-y: auto;
+}
+
+.social {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 15px;
+    color: grey;
+    padding-bottom: 10px;
+}
+
+.social hr {
+    border: 1px solid rgb(226, 226, 226);
+    margin: 10px 0;
+}
+.social img{
+    width: 35px;
+    height: auto;
+}
+
+.social button {
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid rgb(226, 226, 226);
+    padding: 5px 10px;
+    
+}
+
+.social button img {
+    width: 15px;
+    height: auto;
+}
+
+.social button a {
+    text-decoration: none;
+}
+
+.social a {
+    color: grey;
+}
+
+.topics {
+    padding-bottom: 40px;
+}
+
+.topics button {
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid rgb(226, 226, 226);
+    padding: 5px 10px;
+
+}
+
+.topics button a {
+    text-decoration: none;
+}
+
+.follow-user {
+    padding-bottom: 40px;
+}
+
+.follow-user .user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.follow-user .user img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.follow-user .user-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.follow-user .user-info h4 {
+    margin: 0;
+}
+
+.follow-user .user-info span {
+    font-weight: lighter;
+    color: grey;
+}
+
+.follow-user .user button {
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid rgb(226, 226, 226);
+    padding: 5px 10px;
+    margin-left: auto;
+
+}
+.follow-user .user button a {
+    text-decoration: none;
+}
+
+.footer-sidebar button{
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    padding: 5px 10px;
+}
+
+.footer-sidebar button a {
+    text-decoration: none;
+    outline: none;
+}
+
+.main-content {
+    padding: 70px;
+    margin-right: 350px;
+}
+
+.article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.article img {
+    width: 300px;
+    height: auto;
+    margin-left: 20px;
+    flex-shrink: 0;
+}
+
+.article p {
+    color: grey;
+}
+.article span {
+    font-size: 12px;
+    color: grey;
+}
+.article-meta {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.article-meta img {
+    margin-left: 10px;
+    width: 20px;
+    height: auto;
+}
+
+.article-icons {
+    display: flex;
+    align-items: center;
+}
+
+.article-icons img {
+    margin-left: 10px;
+}
+
+.article-icons a img {
+    cursor: pointer;
+}
